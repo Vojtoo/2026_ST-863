@@ -7,5 +7,5 @@ template_body: "core/templates/content/knifes/body/index.md"
 id_prefix: "K"
 locale: "sk"
 defaults:
-  author: "Roman Kazicka"
+  author: "Vojtech Babinský"
   status: "backlog"

@@ -12,7 +12,7 @@ fm_version_comment: ""
 # 🆔 IDENTITY --------------------------------------------------------
 
 # ID generuje CLI / skript
-id: "ST-054-VojtechBabinsky"
+id: "ST-863-VojtechBabinsky"
 
 # Unikátne UUID – generuje skript
 guid: "2d7aa15e-3a89-49b4-a02e-26e1df627ee8"
@@ -24,7 +24,7 @@ guid: "2d7aa15e-3a89-49b4-a02e-26e1df627ee8"
 dao: "sthdf"
 
 # Názov zápisu – dopĺňa používateľ
-title: "ST-054-VojtechBabinsky – ST-054 Vojtech Babinsky"
+title: "ST-863-VojtechBabinsky – ST-863 Vojtech Babinsky"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
 description: "{{DESCRIPTION}}"
@@ -33,11 +33,11 @@ description: "{{DESCRIPTION}}"
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Vojtech Babinský"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Vojtech Babinský"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -84,7 +84,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Vojtech Babinský"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -96,7 +96,7 @@ license: "CC-BY-NC-SA-4.0"
 disclaimer: "Use at your own risk. Methods provided as-is; participation is voluntary and context-aware."
 
 # Copyright
-copyright: "© 2025 Roman Kazicka"
+copyright: "© 2026 Vojtech Babinský"
 
 
 # 🔗 ORIGIN / PROVENANCE ---------------------------------------------
@@ -117,7 +117,7 @@ origin_branch: ""
 origin_system: "CAA"
 
 # Pôvodný autor
-origin_author: "Roman Kazicka"
+origin_author: "Vojtech Babinský"
 
 # Importovaný zdroj
 origin_imported_from: ""

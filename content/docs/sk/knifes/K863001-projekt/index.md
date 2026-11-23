@@ -11,7 +11,7 @@ fm_version_comment: "Návrh v2 – krúžok zarovno, max. výška 200 mm"
 # 🆔 IDENTITY --------------------------------------------------------
 
 # ID generuje CLI / skript
-id: "K000100"
+id: "K863001"
 
 # Unikátne UUID – generuje skript
 guid: ""
@@ -22,7 +22,7 @@ guid: ""
 dao: "knife"
 
 # Názov zápisu – dopĺňa používateľ
-title: "Teleskopická váza s bajonetovým zámkom"
+title: "K863001 – Teleskopická váza"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
 description: "Semestrálny projekt SMVIT – vodotesná teleskopická váza z 3D tlačiarne s bajonetovým zámkom a O-krúžkami, od nápadu cez iterácie návrhu po testovaciu sadu."
@@ -124,15 +124,13 @@ fm_reserved1: ""
 fm_reserved2: ""
 ---
 
-# 🏺 Teleskopická váza s bajonetovým zámkom
+# 🏺 Teleskopická váza
 
 ## 🎯 Čo rieši (účel, cieľ)
 
 Bežná váza má jednu pevnú výšku: na krátke kvety je privysoká, na dlhé
 prinízka a pri skladovaní či prenášaní zaberá zbytočne veľa miesta. Cieľom
-projektu je **malá, ale plne funkčná váza z 3D tlačiarne**, ktorá sa dá
-vysunúť a zasunúť ako ďalekohľad, v každej polohe drží pevne a hlavne
-**nepreteká**.
+projektu je **malá, ale plne funkčná váza z 3D tlačiarne**.
 
 Požiadavky na začiatku projektu:
 
@@ -174,17 +172,17 @@ zmena výšky, priemeru alebo vôle je otázka jedného čísla a nového export
 
 ## ⚡ Rýchly návod (Top)
 
-| Čo                                            | Hodnota                                          |
-| --------------------------------------------- | ------------------------------------------------ |
-| 📏 Výška vysunutá / zložená                   | 194 mm / 85 mm                                   |
-| ⭕ Priemery (v3)                              | vrch vnútri 98,8 / stred 91,8 / spodok 80 mm, pätka 120 mm |
-| 🧱 Diely na tlač                              | bottom, middle, top, ring_bottom, ring_middle    |
-| 🔴 O-krúžky (NBR 70 Shore A)                  | 78×3 mm (spodok–stred), 90×3 mm (stred–vrch)     |
-| 💛 Dekorácia                                  | reliéf 1,5 mm na vrchu, parameter `motif` (aj vlastné SVG) |
-| 🔒 Bajonet                                    | 3 kolíky, pootočenie 30°, poistka 1 mm           |
-| 🧵 Materiál                                   | PETG, 4–6 perimetrov, segmenty postojačky        |
-| 🧪 Testovacia sada (v3)                       | test_lower + ring_bottom + test_upper + O-krúžok 78×3 |
-| 🛠️ Nástroje                                   | OpenSCAD (model), PrusaSlicer / Cura (tlač)      |
+| Čo                           | Hodnota                                                    |
+| ---------------------------- | ---------------------------------------------------------- |
+| 📏 Výška vysunutá / zložená  | 194 mm / 85 mm                                             |
+| ⭕ Priemery (v3)             | vrch vnútri 98,8 / stred 91,8 / spodok 80 mm, pätka 120 mm |
+| 🧱 Diely na tlač             | bottom, middle, top, ring_bottom, ring_middle              |
+| 🔴 O-krúžky (NBR 70 Shore A) | 78×3 mm (spodok–stred), 90×3 mm (stred–vrch)               |
+| 💛 Dekorácia                 | reliéf 1,5 mm na vrchu, parameter `motif` (aj vlastné SVG) |
+| 🔒 Bajonet                   | 3 kolíky, pootočenie 30°, poistka 1 mm                     |
+| 🧵 Materiál                  | PETG, 4–6 perimetrov, segmenty postojačky                  |
+| 🧪 Testovacia sada (v3)      | test_lower + ring_bottom + test_upper + O-krúžok 78×3      |
+| 🛠️ Nástroje                  | OpenSCAD (model), PrusaSlicer / Cura (tlač)                |
 
 ## 📜 Detailný článok
 
@@ -263,13 +261,13 @@ Nové požiadavky:
 
 #### Rozmery
 
-| Diel | Rozmer |
-| --- | --- |
-| Vrch (najväčší) | vnútorný priemer 98,8 mm |
-| Stred | vonkajší priemer 91,8 mm |
-| Spodok | vonkajší priemer 80 mm |
-| Pätka | priemer 120 mm |
-| Výška | 194 mm vysunutá, 85 mm zložená |
+| Diel            | Rozmer                         |
+| --------------- | ------------------------------ |
+| Vrch (najväčší) | vnútorný priemer 98,8 mm       |
+| Stred           | vonkajší priemer 91,8 mm       |
+| Spodok          | vonkajší priemer 80 mm         |
+| Pätka           | priemer 120 mm                 |
+| Výška           | 194 mm vysunutá, 85 mm zložená |
 
 Limit 10 cm si model kontroluje sám: ak by zmena parametrov vnútorný priemer
 vrchu prekročila, OpenSCAD vypíše chybu.
@@ -317,10 +315,10 @@ Preto má pätku s priemerom 120 mm, ktorú treba tlačiť s vysokou výplňou
 
 Oba sú štandardné metrické rozmery: NBR, tvrdosť 70 Shore A, prierez 3 mm.
 
-| Spoj | O-krúžok | Tesní o priemer | Natiahnutie |
-| --- | --- | --- | --- |
-| spodok / stred | 78×3 | 80 mm | cca 2,6 % |
-| stred / vrch | 90×3 | 91,8 mm | cca 2 % |
+| Spoj           | O-krúžok | Tesní o priemer | Natiahnutie |
+| -------------- | -------- | --------------- | ----------- |
+| spodok / stred | 78×3     | 80 mm           | cca 2,6 %   |
+| stred / vrch   | 90×3     | 91,8 mm         | cca 2 %     |
 
 Prierez 3 mm je zámerne väčší ako vo v2 (2 mm), lebo lepšie znáša
 nepresnosti 3D tlače.
@@ -372,13 +370,13 @@ kĺže O-krúžok. Tam funguje iba iná farba filamentu.
 
 ### Prehľad iterácií
 
-| Verzia  | Zmena                                 | Dôvod                                 |
-| ------- | ------------------------------------- | ------------------------------------- |
-| koncept | drážky v samostatnom krúžku           | drážka v stene by prerušila tesnenie  |
-| v1      | krúžok zvonka na vonkajšom závite     | jednoduchá montáž                     |
-| v1.1    | testovacia sada s dnom + krúžok       | test spoja vodou bez tlače celej vázy |
-| v2      | krúžok zarovno, závit vo vnútri steny | vzhľad, úplné zloženie vázy           |
-| v2.1    | výšky 72 / 72 / 80 mm                 | limit 200 mm                          |
+| Verzia  | Zmena                                                            | Dôvod                                                          |
+| ------- | ---------------------------------------------------------------- | -------------------------------------------------------------- |
+| koncept | drážky v samostatnom krúžku                                      | drážka v stene by prerušila tesnenie                           |
+| v1      | krúžok zvonka na vonkajšom závite                                | jednoduchá montáž                                              |
+| v1.1    | testovacia sada s dnom + krúžok                                  | test spoja vodou bez tlače celej vázy                          |
+| v2      | krúžok zarovno, závit vo vnútri steny                            | vzhľad, úplné zloženie vázy                                    |
+| v2.1    | výšky 72 / 72 / 80 mm                                            | limit 200 mm                                                   |
 | v3      | obrátená architektúra, vonkajšie tesnenie, O-krúžky 3 mm, reliéf | požiadavka max. 10 cm vnútri, najväčší segment hore, dekorácia |
 
 ## 💡 Tipy a poznámky

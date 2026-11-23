@@ -29,11 +29,11 @@ description: "{{DESCRIPTION}}"
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Vojtech Babinský"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Vojtech Babinský"
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
 
@@ -76,7 +76,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Vojtech Babinský"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -88,7 +88,7 @@ license: "CC-BY-NC-SA-4.0"
 disclaimer: "Use at your own risk. Methods provided as-is; participation is voluntary and context-aware."
 
 # Copyright
-copyright: "© 2025 Roman Kazicka"
+copyright: "© 2026 Vojtech Babinský"
 
 # 🔗 ORIGIN / PROVENANCE ---------------------------------------------
 
@@ -108,7 +108,7 @@ origin_branch: ""
 origin_system: "CAA"
 
 # Pôvodný autor
-origin_author: "Roman Kazicka"
+origin_author: "Vojtech Babinský"
 
 # Importovaný zdroj
 origin_imported_from: ""
@@ -122,7 +122,7 @@ fm_reserved1: ""
 fm_reserved2: ""
 ---
 
-<!-- SDLC_INSTANCE_ID: ST-054-VojtechBabinsky -->
+<!-- SDLC_INSTANCE_ID: ST-863-VojtechBabinsky -->
 
 # 🙋 About Me
 

@@ -12,7 +12,7 @@ fm_version_comment: ""
 # 🆔 IDENTITY --------------------------------------------------------
 
 # ID generuje CLI / skript
-id: "K000200"
+id: "K863002"
 
 # Unikátne UUID – generuje skript
 guid: "5b175579-d4f7-45c8-bd4c-269240b5ba1c"
@@ -24,7 +24,7 @@ guid: "5b175579-d4f7-45c8-bd4c-269240b5ba1c"
 dao: "knife"
 
 # Názov zápisu – dopĺňa používateľ
-title: "K000200 – Drone lab"
+title: "K863002 – Drone lab"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
 description: "Návšteva Drone Labu FEI a FCHPT STU – otvorený priestor na stavbu, testovanie a simulácie dronov."
@@ -33,11 +33,11 @@ description: "Návšteva Drone Labu FEI a FCHPT STU – otvorený priestor na st
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Vojtech Babinský"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Vojtech Babinský"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -89,7 +89,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Vojtech Babinský"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -101,7 +101,7 @@ license: "CC-BY-NC-SA-4.0"
 disclaimer: "Use at your own risk. Methods provided as-is; participation is voluntary and context-aware."
 
 # Copyright
-copyright: "© 2025 Roman Kazicka"
+copyright: "© 2026 Vojtech Babinský"
 
 
 # 🔗 ORIGIN / PROVENANCE ---------------------------------------------
@@ -122,7 +122,7 @@ origin_branch: ""
 origin_system: "CAA"
 
 # Pôvodný autor
-origin_author: "Roman Kazicka"
+origin_author: "Vojtech Babinský"
 
 # Importovaný zdroj
 origin_imported_from: ""

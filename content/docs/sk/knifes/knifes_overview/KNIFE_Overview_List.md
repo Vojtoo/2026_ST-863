@@ -15,7 +15,7 @@ fm_version_comment: ""
 id: "KNIFE_OVERVIEW_LIST"
 
 # Unikátne UUID – generuje skript
-guid: "0d65f31c-adde-4872-95d7-5085276d44f7"
+guid: "23dd7ca1-96a5-48f8-a918-ba897b434a5a"
 
 
 # 🧭 CONTEXT ---------------------------------------------------------
@@ -69,7 +69,7 @@ locale: "sk"
 # 🕒 LIFECYCLE --------------------------------------------------------
 
 # Dátum vytvorenia – generuje skript
-created: "2026-10-20"
+created: "2026-11-23"
 
 # Dátum poslednej úpravy – dopĺňa človek
 modified: ""
@@ -135,12 +135,13 @@ fm_reserved2: ""
 # 🗂 KNIFE Overview – List
 
 <!-- fm-visible: start -->
-> **GUID:** `0d65f31c-adde-4872-95d7-5085276d44f7`
+> **GUID:** `23dd7ca1-96a5-48f8-a918-ba897b434a5a`
 > **Status:** `backlog` · **Author:** Roman Kazička · **License:** CC-BY-NC-SA-4.0
 <!-- fm-visible: end -->
 
 [📰 Blog](./KNIFE_Overview_Blog.md) | **[🗂 List](./KNIFE_Overview_List.md)** | [📊 Details](./KNIFE_Overview_Details.md) | [↩️ KNIFES](../index.md)
 
 
-- **K000200** · [K000200 – Drone lab](../K000200-drone-lab/) · _backlog_ · -
-- **K000100** · [Teleskopická váza s bajonetovým zámkom](../K000100-projekt/) · _in-progress_ · -
+- **K863003** · [K863003 – Vodotesnosť 3D tlače](../K863003-vodotesnost-3d-tlace/) · _in-progress_ · -
+- **K863002** · [K863002 – Drone lab](../K863002-drone-lab/) · _backlog_ · -
+- **K863001** · [K863001 – Teleskopická váza](../K863001-projekt/) · _in-progress_ · -
