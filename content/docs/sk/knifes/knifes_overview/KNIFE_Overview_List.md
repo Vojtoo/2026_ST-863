@@ -15,7 +15,7 @@ fm_version_comment: ""
 id: "KNIFE_OVERVIEW_LIST"
 
 # Unikátne UUID – generuje skript
-guid: "be9ca0e2-5fda-4aad-95c6-342410ece768"
+guid: "be2216f6-a1a4-4779-95ad-6a7b45485855"
 
 
 # 🧭 CONTEXT ---------------------------------------------------------
@@ -135,13 +135,14 @@ fm_reserved2: ""
 # 🗂 KNIFE Overview – List
 
 <!-- fm-visible: start -->
-> **GUID:** `be9ca0e2-5fda-4aad-95c6-342410ece768`
+> **GUID:** `be2216f6-a1a4-4779-95ad-6a7b45485855`
 > **Status:** `backlog` · **Author:** Roman Kazička · **License:** CC-BY-NC-SA-4.0
 <!-- fm-visible: end -->
 
 [📰 Blog](./KNIFE_Overview_Blog.md) | **[🗂 List](./KNIFE_Overview_List.md)** | [📊 Details](./KNIFE_Overview_Details.md) | [↩️ KNIFES](../index.md)
 
 
+- **K863004** · [K863004 – Teleskopická váza – od nápadu k prototypu spoja](../K863004-vaza-prototyp/) · _in-progress_ · -
 - **K863003** · [K863003 – Vodotesnosť 3D tlače](../K863003-vodotesnost-3d-tlace/) · _in-progress_ · -
 - **K863002** · [K863002 – Drone lab](../K863002-drone-lab/) · _backlog_ · -
 - **K863001** · [K863001 – Teleskopická váza](../K863001-projekt/) · _in-progress_ · -
