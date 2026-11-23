@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -133,9 +133,17 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: ST-863-VojtechBabinsky -->
 
-# D2 – Motivation
+# D1 – Management
 
-Stakeholderi, dôvody a dopady.
+Riadenie projektu **Teleskopická váza** – cieľ, plán, rozhodnutia
+a riziká.
 
----
+| Sekcia | Obsah |
+| ------ | ----- |
+| [Goals & Expectations](./01.Goals-Expectation/index.md) | cieľ projektu – dokumentácia ako launchpad na prototyp a výrobu |
+| [Plans & Milestones](./02.Plans-Milestones/index.md) | míľniky a ich stav |
+| [Decisions](./04.Decisions/index.md) | kľúčové rozhodnutia v návrhu, [SWOT](./04.Decisions/03.SWOT/index.md), [riziká](./04.Decisions/04.Risks/index.md) |
+
+Súvisiace: [Project Summary](../../../students/project-summary/index.md)
+
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../index.md)

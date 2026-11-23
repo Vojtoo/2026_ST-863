@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,38 @@ fm_reserved2: ""
 
 # Resources
 
-Ľudia, čas, financie a iné zdroje.
+## 👤 Ľudia
 
----
+- **Vojtech Babinský** – návrh, tlač, testovanie, dokumentácia
+  (individuálny projekt).
+
+## 🛠️ Nástroje
+
+| Nástroj | Použitie |
+| ------- | -------- |
+| OpenSCAD | parametrický 3D model |
+| PrusaSlicer / Cura | príprava tlače |
+| FDM 3D tlačiareň | tlač dielov |
+| Docusaurus + Git | dokumentácia |
+
+## 🧱 Materiál
+
+| Položka | Poznámka |
+| ------- | -------- |
+| Filament PETG | segmenty, krúžky, testovacia sada |
+| O-krúžok NBR 78×3 mm | spoj spodok / stred |
+| O-krúžok NBR 90×3 mm | spoj stred / vrch |
+| dichtol AM Hydro (voliteľné) | impregnácia, od 24,94 € / 0,25 l |
+
+## 📖 Informačné zdroje
+
+- 3D Printer Academy: [Are 3D prints water tight?](https://www.youtube.com/watch?v=J_dwsXqRONA)
+- DIAMANT Polymer: [Make 3D Prints WATERPROOF in 5 MINUTES](https://www.youtube.com/watch?v=eckya5VxU40)
+- [dichtol AM Hydro – produktová stránka](https://diamant-polymer.de/en/shop/dichtol/am-hydro/)
+- Hansa-Flex SK, Tameson – dodávatelia O-krúžkov
+
+## ⏱️ Čas
+
+_doplniť – odhad hodín týždenne_
+
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../../index.md)

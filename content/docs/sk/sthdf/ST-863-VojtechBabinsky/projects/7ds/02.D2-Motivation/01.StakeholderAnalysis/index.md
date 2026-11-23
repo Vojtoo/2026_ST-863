@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,13 @@ fm_reserved2: ""
 
 # Stakeholder Analysis
 
-Sekcia **Stakeholder Analysis** – vyplňte obsah podľa potreby.
+| Stakeholder | Záujem | Čo potrebuje od projektu |
+| ----------- | ------ | ------------------------ |
+| **Používatelia** – ľudia v bytoch a na internátoch | šetriť miesto, praktický predmet | vázu, ktorá nepresakuje, dá sa zložiť a vyzerá dobre |
+| **Autor** (Vojtech Babinský) | navrhnúť a zdokumentovať funkčný výrobok | spätnú väzbu, prístup k tlačiarni a materiálu |
+| **Vyučujúci / predmet** | celý cyklus digitálnej výroby | zdokumentovaný postup, výstupy STHDF, prezentáciu |
+| **Ten, kto bude vázu vyrábať** | vytlačiť a zložiť bez ďalšieho návrhu | súbory na tlač, kusovník, postup montáže a testovania |
+| **Investori / podporovatelia** | návratnosť, zmysluplný produkt | jasný problém, riešenie a biznis model (e-shop) |
+| **FabLab** | využitie tlačiarní, zdieľanie poznatkov | prenositeľné poznatky – [Knowledge Contribution](../../../../students/knowledge-contribution/index.md) |
 
----
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../../index.md)

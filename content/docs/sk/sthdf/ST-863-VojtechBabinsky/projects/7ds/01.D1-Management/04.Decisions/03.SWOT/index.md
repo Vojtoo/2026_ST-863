@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,9 @@ fm_reserved2: ""
 
 # SWOT
 
-Sekcia **SWOT** – vyplňte obsah podľa potreby.
+| | Pozitívne | Negatívne |
+| - | --------- | --------- |
+| **Interné** | **Silné stránky**<br/>• šetrí miesto – zložená menej ako polovica výšky<br/>• rozoberateľná a opraviteľná<br/>• parametrický model – rýchla úprava rozmerov<br/>• personalizácia (motív, farba)<br/>• dva spôsoby použitia – váza aj stojan na ceruzky | **Slabé stránky**<br/>• vodotesnosť 3D tlače nie je zaručená<br/>• naplnená váza je ťažká hore<br/>• potreba kupovať O-krúžky<br/>• dlhá tlač jedného kusu |
+| **Externé** | **Príležitosti**<br/>• predaj cez e-shop s tlačou na objednávku<br/>• ľudia v bytoch a na internátoch s obmedzeným priestorom<br/>• tesniace prípravky určené pre 3D tlač (dichtol AM Hydro) | **Hrozby**<br/>• lacné bežné vázy v obchodoch<br/>• kvalita dielov závisí od tlačiarne<br/>• cena tesniaceho prípravku a kvalitnej tlačiarne |
 
----
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../../../index.md)

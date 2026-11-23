@@ -45,3 +45,16 @@ fm_reserved2: ''
 SK
 (Tu sa budú pridávať linky na nové vznikajúce 7ds)
 
+## 📂 7Ds projekty
+
+| Projekt | Autor | 7Ds |
+| ------- | ----- | --- |
+| 🏺 Teleskopická váza | Vojtech Babinský (ST-863) | [D1–D7](../sthdf/ST-863-VojtechBabinsky/projects/7ds/index.md) |
+
+Rýchle odkazy:
+[D1 – Management](../sthdf/ST-863-VojtechBabinsky/projects/7ds/01.D1-Management/index.md) ·
+[D2 – Motivation](../sthdf/ST-863-VojtechBabinsky/projects/7ds/02.D2-Motivation/index.md) ·
+[D3 – Analysis](../sthdf/ST-863-VojtechBabinsky/projects/7ds/03.D3-Analysis/index.md) ·
+[D4 – Design](../sthdf/ST-863-VojtechBabinsky/projects/7ds/04.D4-Design/index.md) ·
+[D5 – Implementation](../sthdf/ST-863-VojtechBabinsky/projects/7ds/05.D5-Implementation/index.md)
+

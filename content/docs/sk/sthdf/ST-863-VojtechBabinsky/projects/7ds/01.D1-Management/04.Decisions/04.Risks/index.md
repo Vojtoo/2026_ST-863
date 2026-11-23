@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,13 @@ fm_reserved2: ""
 
 # Risks
 
-Sekcia **Risks** – vyplňte obsah podľa potreby.
+| # | Riziko | Pravdepodobnosť | Dopad | Opatrenie |
+| - | ------ | --------------- | ----- | --------- |
+| 1 | Stena výtlačku presakuje | stredná | váza neudrží vodu | PETG + nastavenia tlače, impregnácia dichtol AM Hydro, dvojstenná stena ([K863003](../../../../../../../knifes/K863003-vodotesnost-3d-tlace/index.md)) |
+| 2 | Nepresná tlač – zlá vôľa | stredná | bajonet drhne alebo spoj netesní | testovacia sada, doladenie parametra `clr` (0,3 mm) |
+| 3 | Impregnácia zmení tesniacu plochu | nízka | O-krúžok netesní alebo drhne | overiť na testovacej sade pred použitím na celej váze |
+| 4 | O-krúžok presného rozmeru nie je dostupný | nízka | spoj netesní | štandardné rozmery, zmenšenie väčšieho krúžku, krúžok z TPU |
+| 5 | Naplnená váza je ťažká hore | stredná | prevrátenie | pätka 120 mm s výplňou 50–100 % |
+| 6 | Nedostatok zdrojov (tlačiareň, materiál, prípravok) | stredná | oneskorenie prototypu | [Call to action v pitchi](../../../../../students/pitch-presentation/index.md) |
 
----
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../../../index.md)

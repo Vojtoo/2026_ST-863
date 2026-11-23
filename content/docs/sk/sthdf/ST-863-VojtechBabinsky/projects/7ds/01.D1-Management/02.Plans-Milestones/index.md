@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,19 @@ fm_reserved2: ""
 
 # Plans & Milestones
 
-Sekcia **Plans & Milestones** – vyplňte obsah podľa potreby.
+| # | Míľnik | Stav | Výstup |
+| - | ------ | ---- | ------ |
+| 1 | Požiadavky a koncept | ✅ hotovo | [K863001](../../../../../../knifes/K863001-projekt/index.md) – kapitola 1 |
+| 2 | Návrh v1 a spätná väzba | ✅ hotovo | [K863001](../../../../../../knifes/K863001-projekt/index.md) – kapitoly 2–3 |
+| 3 | Návrh v2 a testovacia sada | ✅ hotovo | [K863001](../../../../../../knifes/K863001-projekt/index.md) – kapitoly 4–5 |
+| 4 | Návrh v3 – obrátená architektúra, O-krúžky, dekorácia | ✅ hotovo | [K863001](../../../../../../knifes/K863001-projekt/index.md) – kapitola 6 |
+| 5 | Prieskum vodotesnosti | ✅ hotovo | [K863003](../../../../../../knifes/K863003-vodotesnost-3d-tlace/index.md) |
+| 6 | Doplnenie dokumentácie – kusovník, tlač, montáž | 🔄 prebieha | [D5 – Implementation](../../05.D5-Implementation/index.md) |
+| 7 | Tlač a test testovacej sady | ⏳ čaká | D6 – Verification & Testing |
+| 8 | Kontrola dokumentácie očami niekoho, kto vázu nevidel | ⏳ čaká | – |
+| 9 | Prezentácia | ⏳ čaká | [Pitch](../../../../students/pitch-presentation/index.md) |
 
----
+**Do januára:** dokumentácia ako launchpad na prototyp a výrobu, súbory
+na tlač (STL, `.scad`), prezentácia.
+
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../../index.md)

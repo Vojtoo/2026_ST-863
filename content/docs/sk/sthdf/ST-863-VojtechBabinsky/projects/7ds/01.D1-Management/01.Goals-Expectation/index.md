@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,32 @@ fm_reserved2: ""
 
 # Goals & Expectations
 
-Sekcia **Goals & Expectations** – vyplňte obsah podľa potreby.
+## 🎯 Cieľ
 
----
+Vytvoriť **dokumentáciu teleskopickej vázy z 3D tlače, ktorá je dobrým
+launchpadom na prototyp a výrobu**. Kto ju otvorí, má mať všetko
+potrebné na to, aby mohol bez ďalšieho návrhu začať tlačiť prototyp
+a následne vyrábať.
+
+## 📋 Požiadavky na vázu
+
+| Požiadavka | Hodnota |
+| ---------- | ------- |
+| Konštrukcia | teleskopická, 3 segmenty |
+| Zaistenie | bajonetový zámok |
+| Tesnenie | O-krúžky (kúpiteľné rozmery) |
+| Výška vysunutá | najviac 20 cm |
+| Vnútorný priemer najväčšieho segmentu | najviac 10 cm |
+| Architektúra | najväčší segment hore |
+| Dekorácia | na vonkajšej strane |
+
+## ✅ Kritériá úspechu
+
+- [ ] podľa dokumentácie sa dá vytlačiť a zložiť prototyp bez ďalších
+  otázok na autora,
+- [ ] dokumentácia obsahuje všetky súbory na tlač (STL, `.scad`)
+  a kompletný kusovník,
+- [ ] je popísaný postup testovania tesnosti a bajonetu,
+- [ ] sú zmapované riziká a možnosti utesnenia pre výrobu.
+
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../../index.md)

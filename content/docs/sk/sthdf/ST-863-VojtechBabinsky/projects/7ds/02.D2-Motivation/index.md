@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,27 @@ fm_reserved2: ""
 
 # D2 – Motivation
 
-Stakeholderi, dôvody a dopady.
+## ❓ Problém
 
----
+Bežná váza má **jednu pevnú výšku** a zaberá veľa miesta aj vtedy, keď
+sa nepoužíva. Na krátke kvety je privysoká, na dlhé prinízka. V malom
+byte alebo na internáte je každý centimeter drahý.
+
+## 💡 Riešenie
+
+**Teleskopická váza z 3D tlače**, ktorá sa dá zložiť na menej ako
+polovicu výšky (194 → 85 mm). Zložená poslúži napríklad ako **stojan na
+ceruzky**.
+
+## 🎯 Prečo dokumentácia ako launchpad
+
+Jeden vytlačený kus pomôže jednému človeku. **Dokumentácia**, podľa
+ktorej sa dá prototyp vytlačiť, otestovať a vyrábať, umožní pokračovať
+komukoľvek – aj bez autora.
+
+## 🔗 Súvisiace
+
+- [Stakeholder Analysis](./01.StakeholderAnalysis/index.md)
+- [Pitch Presentation](../../../students/pitch-presentation/index.md) – hodnota, biznis model, call to action
+
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../index.md)

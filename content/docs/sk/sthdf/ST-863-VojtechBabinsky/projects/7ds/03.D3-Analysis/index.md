@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,28 @@ fm_reserved2: ""
 
 # D3 – Analysis
 
-Zdroje, analýzy a vstupy.
+## 📥 Vstupy
 
----
+- požiadavky – pozri [Goals & Expectations](../01.D1-Management/01.Goals-Expectation/index.md),
+- spätná väzba k návrhu v1 („prečo je tam ten krúžok?“) –
+  [K863001](../../../../../knifes/K863001-projekt/index.md), kapitola 3.
+
+## 🔍 Analýzy
+
+| Oblasť | Zistenie | Dôsledok pre návrh |
+| ------ | -------- | ------------------ |
+| Vodotesnosť 3D tlače | FDM výtlačok sám od seba vodotesný nie je | PETG, viac perimetrov, prípadne impregnácia alebo dvojstenná stena – [K863003](../../../../../knifes/K863003-vodotesnost-3d-tlace/index.md) |
+| Umiestnenie bajonetu | drážka v stene preruší tesnenie | drážky v samostatnom krúžku |
+| Montáž | pevný krúžok by nedovolil vložiť segment | krúžok musí byť samostatný a zaskrutkovaný |
+| O-krúžky | 78×3 a 90×3 sú štandardné rozmery (Hansa-Flex, Tameson, predajne tesnení) | drážky navrhnuté k reálnym krúžkom |
+| Prierez O-krúžku | 3 mm lepšie znáša nepresnosti tlače ako 2 mm | prierez 3 mm vo v3 |
+| Materiál | PETG lepšie spája vrstvy a znáša vodu ako PLA | tlač z PETG |
+| Režim tlače | vázový režim (spiral vase) sa nedá použiť kvôli drážkam a kolíkom | bežná tlač s perimetrami |
+| Stabilita | obrátená váza s vodou je ťažká hore | pätka 120 mm s vysokou výplňou |
+
+## 📚 Zdroje
+
+- [Resources](./01.Resources/index.md)
+- [K863002 – Drone lab](../../../../../knifes/K863002-drone-lab/index.md)
+
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../index.md)

@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,20 @@ fm_reserved2: ""
 
 # Decisions
 
-Princípy, pravidlá, SWOT, riziká a opatrenia.
+Kľúčové rozhodnutia v návrhu a ich dôvody. Detail v
+[K863001 – Teleskopická váza](../../../../../../knifes/K863001-projekt/index.md).
 
----
+| # | Rozhodnutie | Dôvod | Alternatíva, ktorá bola zamietnutá |
+| - | ----------- | ----- | ---------------------------------- |
+| 1 | Bajonetové drážky v **samostatnom krúžku** so závitom | drážka v stene by prerušila tesniacu plochu O-krúžku | drážky priamo v stene, lepenie, odnímateľné dno |
+| 2 | Krúžok **zarovno** so segmentom, závit vo vnútri steny (v2) | vzhľad, váza sa zloží úplne až na dno | krúžok obopínajúci segment zvonka (v1) |
+| 3 | **Obrátená architektúra** – najväčší segment hore (v3) | požiadavka, vnútorný priemer max. 10 cm | – |
+| 4 | O-krúžky **NBR 3 mm** (78×3, 90×3) | štandardné rozmery, 3 mm lepšie znáša nepresnosti tlače ako 2 mm | prierez 2 mm |
+| 5 | Materiál **PETG** | lepšie spojenie vrstiev, lepšie znáša vodu | PLA |
+| 6 | **Parametrický model** v OpenSCAD | zmena rozmerov úpravou čísel, model sám kontroluje limity | model bez parametrov |
+| 7 | **Testovacia sada** pred tlačou celej vázy | overenie spoja za cca desatinu materiálu | tlač celej vázy hneď |
+| 8 | **Rozoberateľná** konštrukcia | výmena O-krúžkov, umývanie, oprava | lepené spoje |
+
+Ďalšie: [SWOT](./03.SWOT/index.md) · [Riziká](./04.Risks/index.md)
+
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../../index.md)
