@@ -152,7 +152,7 @@ Toto je rozcestník k tvojim povinným výstupom pre tento predmet.
 
 ## Rýchly checklist
 - [ ] About Me vyplnené
-- [ ] Knowledge Contribution (KNIFE) publikované / referencované
+- [x] Knowledge Contribution (KNIFE) publikované / referencované
 - [ ] Project Summary schválené vyučujúcim
 - [ ] Project Outcomes doplnené o odkazy (repo, video, demo)
 - [ ] Pitch hotový (5–7 min)

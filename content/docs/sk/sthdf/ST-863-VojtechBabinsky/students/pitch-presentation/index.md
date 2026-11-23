@@ -23,10 +23,10 @@ guid: "c75eb849-2b15-48bd-a651-5e262d73081b"
 dao: "sthdf"
 
 # Názov zápisu – dopĺňa používateľ
-title: "pitch presentation"
+title: "Pitch Presentation – Teleskopická váza"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Pitch teleskopickej vázy z 3D tlače – problém, riešenie, hodnota, biznis model, tím a call to action."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
@@ -56,7 +56,11 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags:
+  - sthdf
+  - pitch
+  - 3d-tlac
+  - fablab
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +75,10 @@ locale: "sk"
 created: "2026-10-20 15:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-20 15:28"
+modified: "2026-11-23 17:00"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -133,44 +137,88 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: ST-863-VojtechBabinsky -->
 
-# 🎤 Pitch Presentation
+# 🎤 Pitch Presentation – Teleskopická váza
+
+> **Jedna veta:** Váza, ktorá sa zloží, keď ju nepotrebuješ – a vysunie,
+> keď áno.
 
 ## 1. Problém
-- aký problém riešime
+
+- Bežná váza má **jednu pevnú výšku** a zaberá veľa miesta – na poličke,
+  na stole aj v skrini, keď sa práve nepoužíva.
+- Na krátke kvety je privysoká, na dlhé prinízka.
+- V malom priestore (izba na internáte, malý byt) je každý centimeter
+  drahý – na vázu, ktorá sa použije pár razy do roka, miesto nie je.
 
 ## 2. Riešenie
-- čo ponúkame
+
+**Teleskopická váza z 3D tlače**, ktorá sa dá zmenšiť.
+
+- Tri segmenty sa zasúvajú do seba – **194 mm vysunutá, 85 mm zložená**.
+- Segmenty drží **bajonetový zámok** (pootočenie o 30°), spoje tesnia
+  **O-krúžky**.
+- Výšku si zvolíš podľa toho, čo do nej dávaš.
+- Keď nie sú kvety, poslúži zložená napríklad ako **stojan na ceruzky**
+  na pracovnom stole.
+- Model je parametrický – rozmery a dekorácia (reliéf, vlastný motív) sa
+  dajú upraviť bez nového návrhu.
+
+Detail návrhu: [K863001 – Teleskopická váza](../../../../knifes/K863001-projekt/index.md)
+
+![Váza vysunutá, v reze a zložená](../../../../knifes/K863001-projekt/img/07-v3-vysunuta-rez-zlozena.png)
 
 ## 3. Hodnota
-- kto z toho profituje a ako
+
+**Pre koho:** ľudia v **bytoch a na internátoch**, ktorí majú obmedzený
+priestor.
+
+- **Šetrí miesto** – zložená váza zaberie menej ako polovicu výšky.
+- **Jeden predmet, viac použití** – váza na kvety aj stojan na ceruzky.
+- **Opraviteľná** – diely aj O-krúžky sa dajú vymeniť, nič sa nelepí.
+- **Prispôsobiteľná** – vlastný motív alebo farba na želanie.
 
 ## 4. Biznis model
-- ako by sme to monetizovali (aj v hypotéze)
+
+- **Predaj cez e-shop** – hotová váza vytlačená na objednávku.
+- Výroba na 3D tlačiarni = **žiadny sklad**, tlačí sa až po objednávke.
+- Možnosť **personalizácie** (motív, farba) ako príplatok.
 
 ## 5. Tím
-- prečo sme my tí správni ľudia
+
+**Vojtech Babinský** – FIIT STU
+
+- skúsenosti s **CAD modelovaním v Autodesk Inventor** (vázu navrhol
+  parametricky v OpenSCAD),
+- technicky zdatný – návrh, 3D tlač, testovanie prototypov,
+- základy podnikania z **biznis predmetov** počas štúdia na FIIT STU.
 
 ## 6. Call to action
-- čo potrebujeme od investorov (čas, peniaze, feedback)
 
-## 🛠️ Štruktúra pitchu
-1. **Problém** – aký problém riešime?
-2. **Riešenie** – čo sme vyvinuli?
-3. **Trh / Kontext** – pre koho to je, aký má dopad?
-4. **Tím** – kto sme, aké máme roly?
-5. **Výzva** – čo potrebujeme (čas, ľudí, investíciu)?
+Na dotiahnutie produktu potrebujeme **zdroje** na:
 
-## ⏱️ Časovanie
-- Max 5–7 minút na prezentáciu
-- 2–3 minúty Q&A
+1. **Zdokonalenie dizajnu** – hlavne **coating v chemikálii**, aby bola
+   váza spoľahlivo **vodotesná** (napr. impregnácia dichtol AM Hydro,
+   pozri [K863003 – Vodotesnosť 3D tlače](../../../../knifes/K863003-vodotesnost-3d-tlace/index.md)).
+2. **Kvalitnú 3D tlačiareň** – presnejšia tlač = tesnejšie spoje a menej
+   zmätkov.
+3. **Materiál** – filament (PETG), O-krúžky a tesniaci prípravok na
+   prototypy a prvú sériu.
 
-## 📊 Podklady
-- 3–5 slajdov (stručné, vizuálne)
-- 1 demo / ukážka výsledku
+---
 
-## 🧭 Tipy
-- Menej textu, viac vizualizácií
-- Jedna hlavná myšlienka na slide
+## 🎬 Osnova slajdov (5–7 min + 2–3 min Q&A)
+
+| # | Slajd           | Hlavná myšlienka                                   | Vizuál                         | Čas    |
+| - | --------------- | -------------------------------------------------- | ------------------------------ | ------ |
+| 1 | Problém         | Váza zaberá veľa miesta aj keď sa nepoužíva        | fotka plnej poličky / izby     | ~1 min |
+| 2 | Riešenie        | Teleskopická váza – vysuň / zlož                   | render vysunutá vs. zložená    | ~1,5 min |
+| 3 | Hodnota         | Pre byty a internáty – menej miesta, viac použití  | váza ako stojan na ceruzky     | ~1 min |
+| 4 | Biznis model    | E-shop, tlač na objednávku                         | jednoduchá schéma objednávky   | ~1 min |
+| 5 | Tím             | Inventor, technické zázemie, FIIT STU              | fotka                          | ~0,5 min |
+| 6 | Call to action  | Zdroje: coating, tlačiareň, materiál               | 3 ikonky                       | ~1 min |
+
+**Demo:** testovacia sada spoja alebo vytlačený prototyp – ukázať vysunutie
+a zamknutie bajonetu naživo.
 
 ## Navigácia
 - [↩️ Späť](../index.md)
